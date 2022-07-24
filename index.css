@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/*SEG 1*/
+
+.seg1{
+    height: 150px;
+    background-color: whitesmoke;
+
+}
+.seg1 i{
+    display: none;
+}
+
+.seg1_2{
+    height: 150px;
+    background-color: whitesmoke;
+    
+}
+.seg1 h1{
+    font-family: Optien;
+}
+
+
+
+
+.seg1_3{
+    height: 150px;
+    background-color: whitesmoke;
+    
+}
+
+.seg1_3 section{
+    width: 91%;
+    height: 100%;
+    background-color:whitesmoke;
+    margin-top: 10%;
+
+}
+
+
+
+.seg1_3 section input:nth-child(1){
+    padding-left: 2%;
+    width: 46%;
+    font-family: Poppins;
+    border-radius: 3px;
+    border:solid thin gray
+}
+.seg1_3 section input:nth-child(2){
+    padding-left: 2%;
+    padding-right: 7%;
+    width: 46%;
+    font-family: Poppins;
+    border-radius: 3px;
+    border: solid thin gray;
+
+}
+#show{
+    
+    margin-left: -20px;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+}
+
+.seg1_3 section input[type='submit']{
+    height: 39px;
+    width: 46%;
+    margin-top: 5%;
+    font-family: Montserrat;
+    background: rgb(247, 59, 59);
+    border: solid thin transparent;
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px gainsboro;
+
+}
+
+
+
+
+/*SEG 2*/
+
+.seg2{
+    height: 450px;
+    background: whitesmoke;
+}
+
+.seg2 h1{
+    font-family: Optien;
+}
+.seg2 p{
+    font-family: Poppins;
+}
+
+.seg2_2{
+    height: 450px;
+    background: rgb(145, 144, 144);
+}
+
+
+
+
+
+
+
+  /*MOBILE DEVICE DISPLAY*/
+
+
+@media only screen and (max-width: 660px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        
+    }
+
+    .seg1{
+        margin-left: 0%;
+        height:80px;
+    }
+    
+
+
+    .seg1_2{
+        margin-left: 0%;
+        height: 50px;
+    }
+    .seg1_3{
+        margin-left: 0%;
+        height: 250px;
+    }
+
+    .seg1_3 section{
+        width: 100%;
+        height: 100%;
+        background-color:whitesmoke;
+        margin-top: 10%;
+    
+    }
+
+    .seg1_3 section input:nth-child(1){
+        width: 100%;
+        height: 40px;
+
+    }
+    .seg1_3 section input:nth-child(2){
+        width: 100%;
+        height: 40px;
+        margin-top: 5%;
+
+    }
+    .seg1_3 section input[type='submit']{
+        width: 100%;
+        height: 55px;
+        font-family: Montserrat;
+        font-weight: bold;
+        color:white;
+        margin-top: 13%;
+        border: solid thin transparent;
+
+    }
+    #show{
+        font-size: 100%;
+        padding-left: -4%;
+        
+
+    }
+    
+    
+    
+
+
+    
+    
+
+
+
+
+
+}
+
+    
+
+
+
+
+
+
+
+
